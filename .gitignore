@@ -3,3 +3,4 @@
 url
 *.html
 .DS_Store
+env

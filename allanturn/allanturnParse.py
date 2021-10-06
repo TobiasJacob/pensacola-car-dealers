@@ -5,7 +5,7 @@ import pandas as pd
 
 cars = []
 
-for i in range(16):
+for i in range(15):
     file = open('allanturnResp' + str(i) + '.json', 'r')
     fileContent = file.read()
     file.close()

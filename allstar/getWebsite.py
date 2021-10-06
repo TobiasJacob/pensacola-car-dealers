@@ -1,7 +1,7 @@
 import requests
 
-urls = ['https://www.allstarautoservices.net/inv-scripts/inv/3791058/vehicles?vc=a&f=id%7csn%7cye%7cma%7cmo%7ctr%7cdt%7cta%7ctd%7cen%7cmi%7cdr%7cec%7cic%7cbt%7cpr%7cde%7cim%7ceq%7cvd%7cvin%7chpg%7ccpg%7cvc%7cco%7chi%7ccfx%7cacr%7cvt%7ccy%7cdi%7cft%7clo%7ccfk%7ctb%7ccs%7cvdf%7cfmi%7cdc&ps=25&pn=0&sb=pr%7cd&sp=n&cb=dws_inventory_listing_2&h=22738237db67d109f6d5677809929cac',
-        'https://www.allstarautoservices.net/inv-scripts/inv/3791058/vehicles?vc=a&f=id%7csn%7cye%7cma%7cmo%7ctr%7cdt%7cta%7ctd%7cen%7cmi%7cdr%7cec%7cic%7cbt%7cpr%7cde%7cim%7ceq%7cvd%7cvin%7chpg%7ccpg%7cvc%7cco%7chi%7ccfx%7cacr%7cvt%7ccy%7cdi%7cft%7clo%7ccfk%7ctb%7ccs%7cvdf%7cfmi%7cdc&ps=25&pn=1&sb=pr%7cd&sp=n&cb=dws_inventory_listing_2&h=32fd6f131d710b749c09785c41e3d826']
+urls = ['https://www.allstarautoservices.net/inv-scripts/inv/3791058/vehicles?vc=a&f=id%7csn%7cye%7cma%7cmo%7ctr%7cdt%7cta%7ctd%7cen%7cmi%7cdr%7cec%7cic%7cbt%7cpr%7cim%7ceq%7cvd%7cvin%7chpg%7ccpg%7cvc%7cco%7chi%7ccfx%7cacr%7cvt%7ccy%7cdi%7cft%7clo%7ccfk%7ctb%7ccs%7cnop%7cvdf%7cfmi%7cdc&ps=25&pn=0&sb=pr%7cd&sp=n&cb=dws_inventory_listing_5&h=670e54f2bbfe65fa20110c3b0cb30fc6',
+        'https://www.allstarautoservices.net/inv-scripts/inv/3791058/vehicles?vc=a&f=id%7csn%7cye%7cma%7cmo%7ctr%7cdt%7cta%7ctd%7cen%7cmi%7cdr%7cec%7cic%7cbt%7cpr%7cim%7ceq%7cvd%7cvin%7chpg%7ccpg%7cvc%7cco%7chi%7ccfx%7cacr%7cvt%7ccy%7cdi%7cft%7clo%7ccfk%7ctb%7ccs%7cnop%7cvdf%7cfmi%7cdc&ps=25&pn=1&sb=pr%7cd&sp=n&cb=dws_inventory_listing_5&h=8240685a1b6cbc216470176a9b52de83']
 
 cookies = {'__cfduid': 'd83dae87341b53e59de56f22728ef03881599698302',
            'cid': '90214fa8ee454a1982c0c2f59b1dfd28',
