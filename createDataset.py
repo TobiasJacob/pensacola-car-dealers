@@ -8,7 +8,7 @@ import matplotlib.pyplot as plt
 df1 = pd.read_csv('allanturn/allanturnParsed.csv', index_col=0)
 df2 = pd.read_csv('pensacolaCarDealers/PensacolaCarDealers.csv', index_col=0)
 df3 = pd.read_csv('hillkelly/hillkelly.csv', index_col=0)
-df4 = pd.read_csv('cardeals/cardeals.csv', index_col=0)
+# df4 = pd.read_csv('cardeals/cardeals.csv', index_col=0)
 df5 = pd.read_csv('sandysansing/sandySansing.csv', index_col=0)
 df6 = pd.read_csv('allstar/allstar.csv', index_col=0)
 df7 = pd.read_csv('petemoore/petemoore.csv', index_col=0)
@@ -67,4 +67,8 @@ for (i, car) in df.iterrows():
             df.loc[i, 'MarketValue'] = priceSum / priceN
 # %%
 df.to_csv('PensacolaCarDataset.csv')
+# %%
+
+# %%
+
 # %%

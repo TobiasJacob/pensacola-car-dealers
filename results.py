@@ -3,7 +3,7 @@ import pandas as pd
 import seaborn as sns
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('PensacolaCarDataset2020-10-11.csv', index_col=0)
+df = pd.read_csv('PensacolaCarDataset2021-10-05.csv', index_col=0)
 dfOld = pd.read_csv('PensacolaCarDataset2020-09-28.csv', index_col=0)
 #%%
 print('Before:')
@@ -190,7 +190,7 @@ plt.gca().set_xlim([0, 180000])
 plt.hist([df['Price'] - df['MarketValue']], bins=50)
 # %%
 df['Overprice'] = df['Price'] - df['MarketValue']
-df['RelOverprice'] = df['Overprice'] / df['MarketValue']
+df['RelOverprice'] = df['Overprice'] / df['Price']
 # %%
 df.query("Mileage < 120000 & Year > 2010 & Price < 10000 & Dealer != 'Car Deals' & Dealer != 'All star'").sort_values('RelOverprice')
 # %%
