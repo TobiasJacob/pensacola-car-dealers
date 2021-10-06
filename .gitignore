@@ -1,0 +1,5 @@
+*.json
+*.pyc
+url
+*.html
+.DS_Store
