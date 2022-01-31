@@ -1,3 +1,3 @@
 # Pensacola car dealer dataset
 
-What is the best car
+When I was looking for a car, I created this data-set to find the best car of all dealerships in Pensacola.
